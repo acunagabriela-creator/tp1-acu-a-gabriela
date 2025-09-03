@@ -1,0 +1,64 @@
+BOCETO DE TP 1 tamaño:847x1200
+
+ENCABEZADO CURRICULUM (header)
+- foto de perfil (img)
+- Maria Gabriela Acuña (h1)
+SOBRE MI (nav)
+INFORMACION PERSONAL (a)
+PERFEL PROFESIONAL (a)
+EXPERIENCIA LABORAL (a)
+EDUCACION (a)
+HABIALIDADES (a)
+
+
+CONTENIDO (main)
+
+informacion personal (h1)
+(ul)
+-- Almirante Brown (li)
+--Cel.:011 4562-4589 (li)
+-- acuñamariagabriela@gmail.com (li)
+
+
+- Perfil Profesional (h1)
+
+Diseñadora gráfica con 3 años de experiencia en branding, diseño digital y comunicación visual. Apasionada por la creación de identidades visuales modernas y funcionales.
+Busco potenciar mi desarrollo en un equipo creativo que valore la innovación y el diseño estratégico. (p)
+
+
+- experiencia laboral (h1)
+
+Diseñadora Gráfica Freelance (h2)
+
+Enero 2022 – Actualidad | Buenos Aires (h3)
+
+Desarrollo de identidades visuales para más de 20 emprendimientos.
+
+Creación de piezas gráficas digitales para redes sociales, logrando aumentar el alcance en un 30% en promedio.
+
+Diseño de material publicitario impreso (flyers, catálogos, packaging).
+
+
+Diseñadora Jr. – Agencia Creativa Pixel Studio (h2)
+Marzo 2020 – Diciembre 2021 | Buenos Aires (h3)
+
+Apoyo en proyectos de branding y campañas digitales.
+
+Edición de imágenes y videos para redes sociales de clientes del rubro gastronómico y moda.
+
+Participación en presentaciones para clientes y propuestas de diseño.
+
+
+PIE DE PÁGINA (footer)
+Educación (h1)
+
+Licenciatura en Diseño y Comunicacion Visual – Universidad Nacional de Lanus.
+2019 – En curso (h2)
+
+Habilidades (ul)
+
+Adobe Illustrator, Photoshop, InDesign. (li)
+
+Comunicación visual, storytelling y diseño estratégico. (li)
+
+Idiomas: Español (nativo), Inglés (intermedio B2). (li)
