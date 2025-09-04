@@ -17,8 +17,7 @@
 	list-style: none;
   background:#ecd4f3;  
 }
-  
-  
+    
 .cv{
   text-align: center;
 }
@@ -69,6 +68,7 @@ h3 {
   text-align: center;
   margin: 15px;
   padding-block-start: 10px;
+  overflow-x: auto;
   
 }
 
@@ -85,9 +85,10 @@ h3 {
 
 .flex-conteiner{
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;            
-  justify-content: start;  
+  flex-direction: column;
+  flex-wrap: wrap; 
+  justify-content:start           
+   
 }
 
 
@@ -105,11 +106,13 @@ h3 {
   padding-right: 50px;
   margin-top: 25px;
   margin-bottom: 25px;
+  justify-content: right;
 }
 
 .flex-idem2 h2 {
   margin-top: 15px;
   margin-bottom: 15px;
+  justify-content: right;
 }
 .flex-idem3{
   padding-left: 50px;
