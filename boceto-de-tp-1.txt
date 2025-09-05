@@ -1,4 +1,6 @@
-BOCETO DE TP 1 tamaño:847x1200
+BOCETO DE TP 1 
+
+tamaño:1366x768
 
 ENCABEZADO CURRICULUM (header)
 - foto de perfil (img)
@@ -48,8 +50,6 @@ Edición de imágenes y videos para redes sociales de clientes del rubro gastron
 
 Participación en presentaciones para clientes y propuestas de diseño.
 
-
-PIE DE PÁGINA (footer)
 Educación (h1)
 
 Licenciatura en Diseño y Comunicacion Visual – Universidad Nacional de Lanus.
@@ -57,8 +57,21 @@ Licenciatura en Diseño y Comunicacion Visual – Universidad Nacional de Lanus.
 
 Habilidades (ul)
 
+(img)
 Adobe Illustrator, Photoshop, InDesign. (li)
 
-Comunicación visual, storytelling y diseño estratégico. (li)
+
 
 Idiomas: Español (nativo), Inglés (intermedio B2). (li)
+
+
+PIE DE PÁGINA (footer)
+
+REDES SOCIALES
+(img)
+facebook (a)
+(img)
+instagram (a)
+(img)
+tik tok (a)
+
