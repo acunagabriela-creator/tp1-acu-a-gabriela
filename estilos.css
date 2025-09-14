@@ -1,125 +1,162 @@
 /* css document */
 @charset "utf-8";
 
+/*generales*/
+
+* {
+  padding: 0px;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+
 /*aplicaciones*/
 
-*{
-  padding: 0px;
-	margin: 0;
-	list-style: none;
-  
-}
-    
-.cv{
+header {
+  background-color: rgb(255, 154, 216);
   text-align: center;
 }
+
 
 .profile img {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   border-radius: 100%;
-  margin-right: 50px; 
-  object-fit: cover;            
 }
 
-.profile h1{
-  font-size: 2.5rem;
-  font-family: "fuente titular";
-  font-variant: normal;
-  text-align: center;
-  color:  blueviolet;
-
+.profile h1 {
+  font-size: 3.5rem;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(2, 0, 105);
 }
 
-h1 {
-  font-size: 22px;
-  font-family: "fuente titular";
-  font-variant: normal;
-  color: rgb(47, 4, 97);
-}
+.profile h2 {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(248, 37, 125);
+  font-size: 2rem;
 
-h2 {
-    font-size: 20px;
-}
-
-h3 {
-    color: rgb(120, 1, 255);
-    font-size: 15px;
 }
 
 .botonera {
-  height: 30px;
-  background-color: rgb(169, 77, 255);
+  height: 40px;
+  background-color: rgb(2, 0, 105);
   margin-top: 35px;
   margin-bottom: 35px;
-  padding-top: 20px;  
+  padding-top: 2px;
+  text-align: center;
 }
 
 .botonera a {
-  color: rgb(72, 5, 134);
-  text-align: center;
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2rem;
+  color: rgb(248, 37, 125);
   margin: 15px;
   padding-block-start: 10px;
   overflow-x: auto;
-  
+
 }
 
 
-.contact {
-  margin-right: 50px; 
-  padding: 10px;
-  text-align: center;
-}
-
-.contact h1{
-  text-align: center;
-}
-
-.flex-conteiner{
+.flex-conteiner {
   margin-top: 18px;
   margin-bottom: 18px;
-  max-width: 800px;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
-  }
- 
+}
+
+.flex-conteiner h1 {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(2, 0, 105);
+  background-color: rgb(255, 154, 216);
+  border-radius: 15px;
+  text-align: center;
+
+}
+
+.flex-conteiner h2 {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: rgb(248, 37, 125)
+}
+
+.flex-conteiner h3 {
+  font-family: "Reddit Sans", sans-serif;
+  font-optical-sizing: auto;
+  line-height: 3rem;
+  color: rgb(58, 57, 57);
+
+}
+
+.flex-conteiner p,li {
+  font-family: "Reddit Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 0.9rem;
+}
 
 
-.flex-idem1{
+.flex-idem1 {
   padding-left: 50px;
   padding-right: 50px;
   margin-top: 25px;
   margin-bottom: 25px;
-  flex: 1 1 45%;     
+  margin-left: 20px;
+  border-radius: 15px;
+  flex: 1 1 50%;
+  background-color: rgb(255, 154, 216);
+
 }
 
-.flex-idem1 p{
+.flex-idem1 p {
   margin-top: 15px;
   margin-bottom: 15px
 }
 
+.flex-idem1 h1 {
+  font-size: 5rem;
+  text-align: left;
+}
 
-.flex-idem2{
+.flex-idem1 h2 {
+  font-size: 2rem;
+}
+
+.flex-idem1 img {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+}
+
+
+.flex-idem2 {
   padding-left: 50px;
-  padding-right: 50px;
   margin-top: 25px;
   margin-bottom: 25px;
-  
-
 }
 
 .flex-idem2 h2 {
+  line-height: 2rem;
   margin-top: 15px;
-  margin-bottom: 15px;
-  
-
 }
-.flex-idem3{
+
+
+.flex-idem3 {
   padding-left: 50px;
-  padding-right: 50px;
+  padding-right: 20px;
   margin-top: 25px;
   margin-bottom: 25px;
+
 }
 
 .flex-idem3 li {
@@ -129,22 +166,64 @@ h3 {
 
 .flex-idem3 img {
   margin-top: 15px;
-  margin-bottom: 15px  
+  margin-bottom: 15px;
+
 }
 
-.botonera2 h1 {
-  font-size: 20px;
+.contact h1 {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(2, 0, 105);
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+
+.contact p {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
   text-align: center;
-  height: 60px;
-  background-color: rgb(169, 77, 255);
-  padding-top: 20px;
-
 }
+
+.trabajosmuestra {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.trabajosmuestra a {
+  padding: 37px;
+}
+
+footer {
+  background-color: rgb(2, 0, 105);
+}
+
+.titulodepie {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(248, 37, 125);
+  text-align: center;
+  line-height: 4rem;
+  font-size: 2rem;
+}
+
 
 .botonera2 li {
   font-size: 18px;
   text-align: center;
-  color:#ffffff;
-  height: 60px;
-  background-color: rgb(169, 77, 255);
+  line-height: 3rem;
+}
+
+.botonera2 a {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: antiquewhite
 }

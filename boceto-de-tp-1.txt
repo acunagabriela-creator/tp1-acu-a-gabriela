@@ -1,5 +1,7 @@
 BOCETO DE TP 1 
 
+https://github.com/acunagabriela-creator/tp1-acu-a-gabriela
+
 tamaño:1366x768
 
 ENCABEZADO CURRICULUM (header)
